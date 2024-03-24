@@ -1,18 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css" />
-  <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-a2470e7e.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/basiclightbox@5.0.4/dist/basicLightbox.min.css"
+    />
+    
+    <script type="module" crossorigin src="/goit-js-hw-09/commonHelpers2.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/modulepreload-polyfill-3cfb730f.js">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/2-form-63d8e6d4.css">
+    <link rel="stylesheet" href="/goit-js-hw-09/assets/styles-271bf7cc.css">
+  </head>
 
-<body>
-    <form></form>
-    <script src="./js/2-form.js"></script>
-</body>
-
+  <body>
+    <form class="feedback-form" autocomplete="off">
+      <label class="feedback-info">
+        Email
+        <input
+          class="feedback-input-email"
+          type="email"
+          name="email"
+          autofocus
+        />
+      </label>
+      <label class="feedback-info">
+        Message
+        <textarea class="feedback-textarea" name="message" rows="8"></textarea>
+      </label>
+      <button class="feedback-btn" type="submit">Submit</button>
+    </form>
+    
+  </body>
 </html>
