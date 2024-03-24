@@ -22,7 +22,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-} 
+}
 
 body {
   margin: 24px 156px;
@@ -56,7 +56,6 @@ ul {
   transform: scale(1.03);
 }
 
-
 .gallery__link {
   display: block;
   text-decoration: none;
@@ -74,22 +73,17 @@ ul {
 .main-link {
   margin-bottom: 60px;
   text-decoration: none;
-
   max-width: 150px;
   padding: 8px 12px;
-
   border: 0;
   outline: 0;
-
-  background-color: #ebecf0;
+  background-color: #e0d9d9;
   text-shadow: 1px 1px 0 #fff;
-
   font-size: 24px;
   font: inherit;
   font-weight: bold;
-
-  color: #7c93e7;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  color: #0b40ff;
+  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #fefefe;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
@@ -100,4 +94,4 @@ ul {
 
 .main-link:active {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
-} 
+}

@@ -1,6 +1,6 @@
 import { images } from './images';
 
-const galleryContainer = document.querySelector(".gallery");
+const galleryContainer = document.querySelector('.gallery');
 
 function createMarkUp(images) {
   return images
@@ -15,15 +15,16 @@ function createMarkUp(images) {
   </a>
 </li>`
     )
-    .join("");
+    .join('');
 }
 galleryContainer.innerHTML = createMarkUp(images);
 
-import SimpleLightbox from "simplelightbox";
+import SimpleLightbox from 'simplelightbox';
 
-import "simplelightbox/dist/simple-lightbox.min.css";
+import 'simplelightbox/dist/simple-lightbox.min.css';
 
 const lightbox = new SimpleLightbox('.gallery a', {
-  captionsData: 'alt', captionPosition: 'bottom', captionDelay: 250
+  captionsData: 'alt',
+  captionPosition: 'bottom',
+  captionDelay: 250,
 });
-
